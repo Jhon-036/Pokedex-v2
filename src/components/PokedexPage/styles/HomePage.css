@@ -1,0 +1,44 @@
+.home {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3em;
+}
+
+.home__title {
+    font-size: 1.8em;
+    color: rgba(254, 25, 54, 1);   
+    margin-bottom: 0.3em;
+}
+
+.home__input, .home__btn {
+    border: none;
+}
+
+.home__input {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.home__btn {
+
+    background: rgba(217, 63, 63, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 1em 1.5em;
+    font-size: 0.8em;
+}
+
+.home__footer {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: block;
+}

@@ -18,7 +18,7 @@ const PokeCard = ({url}) => {
     }
 
   return (
-    <div className="pokecard__border" onClick={handleNavigatePokemon}>
+    <div className={`pokecard__border ${pokemon?.types[0].type.name}`} onClick={handleNavigatePokemon}>
         <article className="pokecard">
             <header className="pokecard__header">
                 <img className="pokecard__img" src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />

@@ -1,6 +1,6 @@
 const PokemonPage = () => {
   return (
-    <div>PokemonPage</div>
+    <div>asd</div>
   )
 }
 export default PokemonPage
